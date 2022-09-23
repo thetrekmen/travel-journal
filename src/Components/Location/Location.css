@@ -1,0 +1,86 @@
+.location-container {
+    width: 550px;
+    height: 231px;
+    background-color: #FFFFFF;
+    display: flex;
+    box-shadow: 0 8px 6px -6px #F5F5F5;
+    gap: 20px;
+    padding: 0;
+    margin-bottom: 5px;
+
+}
+
+.location--img {
+    width: 125px;
+    height: 168px;
+    border-radius: 5px;
+    object-fit: cover;
+    object-position: center;
+    margin-left: 40px;
+    margin-top: 45px;
+}
+
+.location--detail-container {
+    margin: 0;
+    margin-top: 45px;
+}
+
+.detail-container-location {
+    display: flex;
+    align-items: center;
+    text-align: left;
+    gap: 12px;
+    padding: 0px;
+}
+
+.detail-img-pin {
+    width: 7px;
+    height: 9.5px;
+    padding: 0px;
+    margin: 0px;
+}
+
+.detail-country {
+    letter-spacing: 2px;
+    Line-height: 12px;
+    text-align: left;
+    Vertical-align: Top;
+    Font-size: 10.24px;
+    padding: 0px;
+    margin: 0px;
+}
+
+.detail-googlemaps {
+    Font-size: 10.24px;
+    Line-height: 12px;
+    text-align: left;
+    Vertical-align: Top;
+    color: #918E9B;
+    padding: 0px;
+    margin: 0px;
+    text-decoration: underline;
+}
+
+.location--detail-title {
+    Font-size: 25px;
+    Line-height: 30px;
+    text-align: left;
+    Vertical-align: Top;
+    margin-top: 10px;
+}
+
+.location--detail-date {
+    font-style: bold;
+    Font-size: 10.24px;
+    Line-height: 12px;
+    text-align: left;
+    Vertical-align: Top;
+}
+
+.location--detail-detail {
+    Font-size: 10.24px;
+    Line-height: 15px;
+    text-align: Left;
+    Vertical-align: Top;
+    width: 325px;
+}
