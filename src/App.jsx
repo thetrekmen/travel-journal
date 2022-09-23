@@ -21,7 +21,7 @@ export default function App() {
       <Navbar
         className="navbar"
         backgroundImg="/globe.png"
-        navbarTitle="My Travel Journal." />
+        navbarTitle="my travel journal." />
       <section className="locations-list">
         {locations}
       </section>
